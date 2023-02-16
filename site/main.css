@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    background: #afafaf;
+    border-radius: 100vw;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "BRcobane";
+    src: url(../fonts/Brink\ -\ BR\ Cobane\ Medium.otf);
+}
+
+.dropdown{
+    margin-right: 5%;
+    list-style: none;
+    float: right;
+    top: 0%;
+    text-align: center;
+    font-family: "BRcobane";
+    font-weight: bold;
+    font-size: 200%;
+    position: fixed;
+    right: 5%;
+    top: 15%;
+}
+
+#light{
+    font-family: "BRcobane";
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+    float: right;
+    bottom: 0%;
+    height: fit-content;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-right: 5px;
+    padding-top: 5px;
+    color: #000000;
+    border-color: #000000;
+}
+
+#dark{
+    font-family: "BRcobane";
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+    float: right;
+    bottom: 0%;
+    height: fit-content;
+    width: 90px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #000000;
+    border-color: #000000;
+}
+
+header{
+    font-size: 300%;
+    font-family: "BRcobane";
+    font-weight: bold;
+    color: black;
+    margin: 5%;
+}
+#title{
+    font-family: "BRcobane";
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #3C3C3C;
+    margin-left: 5%;
+}
+.page1div{
+    display: block;
+    text-align: center;
+    font-family: "BRcobane";
+    font-size: 120%;
+    color: #3C3C3C;
+    margin-bottom: 5%;
+}
+.q1{
+    display: block;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-right: 5%;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+.q2{
+    display: block;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-right: 5%;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+.q3{
+    display: block;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-right: 5%;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+}
